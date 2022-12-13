@@ -1,0 +1,73 @@
+{
+	"results": [
+		{
+			"rule_id": "AVD-AWS-0164",
+			"long_id": "aws-ec2-no-public-ip-subnet",
+			"rule_description": "Instances in a subnet should not receive a public IP address by default.",
+			"rule_provider": "aws",
+			"rule_service": "ec2",
+			"impact": "The instance is publicly accessible",
+			"resolution": "Set the instance to not be publicly accessible",
+			"links": [
+				"https://aquasecurity.github.io/tfsec/latest/checks/aws/ec2/no-public-ip-subnet/",
+				"https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/subnet#map_public_ip_on_launch"
+			],
+			"description": "Subnet associates public IP address.",
+			"severity": "HIGH",
+			"warning": false,
+			"status": 0,
+			"resource": "aws_subnet.public_subnet[0]",
+			"location": {
+				"filename": "E:\\workspace\\terraform_iac\\aws\\vpc-example\\main.tf",
+				"start_line": 19,
+				"end_line": 19
+			}
+		},
+		{
+			"rule_id": "AVD-AWS-0164",
+			"long_id": "aws-ec2-no-public-ip-subnet",
+			"rule_description": "Instances in a subnet should not receive a public IP address by default.",
+			"rule_provider": "aws",
+			"rule_service": "ec2",
+			"impact": "The instance is publicly accessible",
+			"resolution": "Set the instance to not be publicly accessible",
+			"links": [
+				"https://aquasecurity.github.io/tfsec/latest/checks/aws/ec2/no-public-ip-subnet/",
+				"https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/subnet#map_public_ip_on_launch"
+			],
+			"description": "Subnet associates public IP address.",
+			"severity": "HIGH",
+			"warning": false,
+			"status": 0,
+			"resource": "aws_subnet.public_subnet[1]",
+			"location": {
+				"filename": "E:\\workspace\\terraform_iac\\aws\\vpc-example\\main.tf",
+				"start_line": 19,
+				"end_line": 19
+			}
+		},
+		{
+			"rule_id": "AVD-AWS-0164",
+			"long_id": "aws-ec2-no-public-ip-subnet",
+			"rule_description": "Instances in a subnet should not receive a public IP address by default.",
+			"rule_provider": "aws",
+			"rule_service": "ec2",
+			"impact": "The instance is publicly accessible",
+			"resolution": "Set the instance to not be publicly accessible",
+			"links": [
+				"https://aquasecurity.github.io/tfsec/latest/checks/aws/ec2/no-public-ip-subnet/",
+				"https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/subnet#map_public_ip_on_launch"
+			],
+			"description": "Subnet associates public IP address.",
+			"severity": "HIGH",
+			"warning": false,
+			"status": 0,
+			"resource": "aws_subnet.public_subnet[2]",
+			"location": {
+				"filename": "E:\\workspace\\terraform_iac\\aws\\vpc-example\\main.tf",
+				"start_line": 19,
+				"end_line": 19
+			}
+		}
+	]
+}
