@@ -32,3 +32,4 @@ override.tf.json
 # Include drift.sh and run.sh files from every directory
 **/drift.sh
 **/run.sh
+**/drift.md
